@@ -1,14 +1,15 @@
-//
-//  main.cpp
-//  cin_cout_ex
-//
-//  Created by 이지수 on 2023/03/07.
-//
+# include <iostream>
+using namespace std;
 
-#include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(void)
+{
+    // 주소를 입력받아 출력하기
+    char address[100];
+    cout<<"주소 입력 : ";
+    cin>>address;
+    
+    cout<<"입력된 주소는 "<<address<<" 입니다."<<endl;
+    
     return 0;
 }
+
